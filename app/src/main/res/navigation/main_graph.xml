@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.suzai.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/numberOfConsciousnessFragment"
+        android:name="com.example.suzai.NumberOfConsciousnessFragment"
+        android:label="fragment_number_of_consciousness_fragment"
+        tools:layout="@layout/fragment_number_of_consciousness_fragment" />
+    <fragment
+        android:id="@+id/missionFragment"
+        android:name="com.example.suzai.MissionFragment"
+        android:label="fragment_mission"
+        tools:layout="@layout/fragment_mission" />
+    <fragment
+        android:id="@+id/consciousnessInfoFragment"
+        android:name="com.example.suzai.ConsciousnessInfoFragment"
+        android:label="ConsciousnessInfoFragment" />
+</com.google.android.material.navigation.NavigationView>

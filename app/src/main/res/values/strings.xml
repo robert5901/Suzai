@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Suzai</string>
+    <string name="tv_num_of_consciousness">Или \n\nвыберете число сознания</string>
+    <string name="tv_enter_date">Введите дату рождения:</string>
+    <string name="pick_date_text">дд.мм.гг</string>
+    <string-array name="spinner_text">
+        <item>Число сознания 1</item>
+        <item>Число сознания 2</item>
+        <item>Число сознания 3</item>
+        <item>Число сознания 4</item>
+        <item>Число сознания 5</item>
+        <item>Число сознания 6</item>
+        <item>Число сознания 7</item>
+        <item>Число сознания 8</item>
+        <item>Число сознания 9</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
