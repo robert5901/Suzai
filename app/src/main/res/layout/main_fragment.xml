@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".NumberOfConsciousnessFragment">
+    tools:context=".fragments.MainFragment">
 
     <TextView
         android:id="@+id/textView"
@@ -36,8 +36,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="День"
-                android:maxLength="2"
                 android:inputType="number"
+                android:maxLength="2"
                 android:text=""
                 android:textColor="#ffff"
                 android:textSize="20sp" />
@@ -75,8 +75,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="Год"
-                android:maxLength="4"
                 android:inputType="number"
+                android:maxLength="4"
                 android:text=""
                 android:textColor="#ffff"
                 android:textSize="20sp" />
@@ -104,10 +104,27 @@
         android:layout_marginTop="50dp"
         android:entries="@array/spinner_text" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ok"
-        android:layout_gravity="end"/>
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_num_of_consciousness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Число сознания" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="Миссия" />
+
+    </LinearLayout>
 </LinearLayout>

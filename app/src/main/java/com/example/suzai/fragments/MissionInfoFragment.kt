@@ -1,13 +1,14 @@
-package com.example.suzai
+package com.example.suzai.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.suzai.R
 
 
-class MissionFragment : Fragment() {
+class MissionInfoFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +19,5 @@ class MissionFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_mission, container, false)
     }
-
 
 }
